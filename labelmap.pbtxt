@@ -1,0 +1,115 @@
+item {
+  id: 1
+  name: 'Auto'
+}
+
+item {
+  id: 2
+  name: 'barrier'
+}
+
+item {
+  id: 3
+  name: 'Bus'
+}
+
+item {
+  id: 4
+  name: 'Car'
+}
+
+item {
+  id: 5
+  name: 'crosswalk'
+}
+
+item {
+  id: 6
+  name: 'Dog'
+}
+
+item {
+  id: 7
+  name: 'Footpath'
+}
+
+item {
+  id: 8
+  name: 'Traffic Lights'
+}
+
+item {
+  id: 9
+  name: 'Tree'
+}
+
+item {
+  id: 10
+  name: 'Vehicle'
+}
+
+item {
+  id: 11
+  name: 'Vendor'
+}
+
+item {
+  id: 12
+  name: 'Vendor cart'
+}
+
+item {
+  id: 13
+  name: 'barrier'
+}
+
+item {
+  id: 14
+  name: 'junk'
+}
+
+item {
+  id: 15
+  name: 'motorcycle'
+}
+
+item {
+  id: 16
+  name: 'obstacle'
+}
+
+item {
+  id: 17
+  name: 'pole'
+}
+
+item {
+  id: 18
+  name: 'pothole'
+}
+
+item {
+  id: 19
+  name: 'Pedestrian'
+}
+
+item {
+  id: 20
+  name: 'signboard'
+}
+
+item {
+  id: 21
+  name: 'stairs'
+}
+
+item {
+  id: 22
+  name: 'Obstacle'
+}
+
+item {
+  id: 23
+  name: 'person'
+}
+

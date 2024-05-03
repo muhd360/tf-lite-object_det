@@ -1,0 +1,23 @@
+Auto
+barrier
+Bus
+Car
+crosswalk
+Dog
+Footpath
+Traffic Lights
+Tree
+Vehicle
+Vendor
+Vendor cart
+barrier
+junk
+motorcycle
+obstacle
+pole
+pothole
+Pedestrian
+signboard
+stairs
+Obstacle
+person
