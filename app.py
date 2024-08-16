@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Apr 28 15:22:14 2020
-
-@author: AryanG
-"""
 
 import numpy as np
 import os
