@@ -1,3 +1,33 @@
+'''
+This script performs object detection on an image using a TensorFlow Lite model and provides audio and visual feedback based on the detected objects' positions within predefined regions of the image. It uses a webcam image or a static image file as input, processes it with a pre-trained TensorFlow Lite model, and provides responses based on object locations.
+
+Key Components
+Imports and Initial Setup:
+
+Libraries such as numpy, cv2 (OpenCV), tensorflow, pyttsx3 (text-to-speech), and matplotlib are imported.
+Paths for the TensorFlow Lite model (modelpath), label map (lblpath), and minimum confidence threshold (min_conf) are specified.
+A webcam capture is initialized (though commented out) and an image file path is used instead.
+The TensorFlow Lite interpreter is set up for model inference.
+Loading the Model:
+
+The TensorFlow Lite model (detect.tflite) is loaded and allocated for inference.
+Input and output details of the model are extracted to understand the expected input shape and the output format.
+Image Processing and Detection:
+
+The image is read and converted from BGR to RGB format.
+The image is resized to match the input dimensions of the model.
+Bounding boxes, labels, and scores are obtained from the model’s output.
+Confidence scores are used to filter detections.
+Drawing and Processing:
+
+Bounding boxes are drawn around detected objects if their confidence score exceeds a threshold.
+Labels are drawn on the image showing the object’s class and confidence score.
+Specific instructions are provided based on the object’s position in relation to predefined boundaries:
+Footpath Detection: If a "footpath" object is detected, an audio prompt is made.
+Movement Instructions:
+Move Left/Right: If the detected object is within certain horizontal bounds, the script provides movement instructions via text and speech.
+Stop: If the object is detected within a certain range, a "stop" instruction is given and boundaries are highlighted.
+'''
 import numpy as np
 import cv2
 import os
